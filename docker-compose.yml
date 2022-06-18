@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: nadha_resto
+    volumes:
+      - .:/src
+    ports:
+      - "8011:80"
